@@ -48,6 +48,7 @@ img {
     display:flex;
     justify-content: center; 
     border: 5px solid cornsilk;
+    border-radius: 20px;
 }
 
 .image {
@@ -76,7 +77,6 @@ a:link, a:visited  {
     width: 940px;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
 }
 
 .lolol {

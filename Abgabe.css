@@ -23,7 +23,7 @@ h1 {
 .colour {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .menue {
@@ -46,23 +46,25 @@ a:link, a:visited {
 
 .text {
     background-color:  cornsilk; opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 30px;
-    margin-left: 370px;
-    margin-right: 370px;
+    padding: 20px;
     margin-top: 80px;
     margin-bottom: 80px;
-
+    width: 950px;
 }
+
+.klapptnicht {    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
 
 p {
     margin: 5px;
     font-size: 20px;
     overflow-wrap: break-word;
     text-align: center;
+    padding: 5px;
 }
 
 h2 {

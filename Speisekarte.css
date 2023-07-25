@@ -7,15 +7,33 @@ body {
     background-position: top;
 }
 
-.titel > p {
-    font-size: 40px;
+
+.titel {
     background-color: cornsilk;
+    padding: 20px;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
-    padding: 20px;
     display: flex;
     justify-content: center;
+    font-size: 40px;
+}
+
+
+
+.vorbestellung {
+    display: flex;
+    justify-content: center;
+}
+
+.vorbestellung > a:link, a:visited {
+    width: 300px;
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 15px;
+    margin: 25px; 
+    font-size: 20px;
+    color: black;
 }
 
 ul {
@@ -28,14 +46,12 @@ ul {
     margin-top: 0px;
     margin-left: 15px;
     margin-right: 15px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 
 }
 
 ul >li ul {
     border-radius: 20px;
-    padding: 30px;
+    padding: 15px;
 }
 
 .text {
@@ -73,8 +89,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 0px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+
 }
 
 
@@ -141,4 +156,5 @@ img {
     text-align: center;
     margin: 5px;
 }
+
 
