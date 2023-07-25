@@ -1,0 +1,144 @@
+html {
+    font-family: serif;
+}
+
+body {
+    background-image: url("Bilder/Hintergrund.jpg");
+    background-position: top;
+}
+
+.titel > p {
+    font-size: 40px;
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+ul >li ul {
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.text {
+    height: 390px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size:25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+
+ul > li > ul > li {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    align-items: stretch;
+    border-top: 5px solid cornsilk;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.klassisch > ul {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+
+.specials > ul {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+.dog > ul {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+.wrap > ul {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+.snacks > ul {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+.dessert {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+.getraenke > ul {
+    background-color: cornsilk;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-bottom: 20px;
+}
+
+img {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.impressum > p {
+
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+

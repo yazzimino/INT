@@ -1,0 +1,95 @@
+html {
+    font-family: serif;
+}
+
+body {
+    background-image: url("Bilder/Hintergrund.jpg");
+    background-position: top;
+}
+
+h1 {
+    background-color: cornsilk;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: cornsilk;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 900px;
+}
+
+.newTry {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 850px;
+    display:flex;
+    justify-content: center; 
+    border: 5px solid cornsilk;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+a:link, a:visited  {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.lol {
+    background-color: palegoldenrod;
+    margin-top: 20px;
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.lolol {
+    display: flex;
+    justify-content: center;
+}
+
+.impressum > p {
+
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+

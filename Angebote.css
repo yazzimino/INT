@@ -1,0 +1,114 @@
+html {
+    font-family: serif;
+}
+
+body {
+    background-image: url("Bilder/Hintergrund.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+h1 {
+    background-color: cornsilk;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.Bestellformular {
+    background-color: palegoldenrod;
+    padding: 20px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.zentrum {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    background-color: cornsilk;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    list-style: none;
+    font-weight: 550;
+}
+
+.flex-item {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.auswahl {
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    height: 20px;
+    font-size: 15px;
+    width: 880px;
+}
+
+.Haken {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    background-color: lightgray;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+}
+
+.plus {
+    background-color: lightgrey;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+img {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.impressum > p {
+
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}

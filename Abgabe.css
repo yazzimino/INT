@@ -1,0 +1,106 @@
+html {
+    font-family: serif;
+}
+
+body {
+    background-image: url("Bilder/Hintergrund.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    background-color: cornsilk;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.colour {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.menue {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: palegoldenrod;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+a:link, a:visited {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.text {
+    background-color:  cornsilk; opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+p {
+    margin: 5px;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 20;
+}
+
+
+.gallerie {
+    background-color: cornsilk; 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.first {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 400px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.impressum > p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+}
